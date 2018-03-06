@@ -24,3 +24,13 @@ all(validate_address_usps(username, street1, city, state)  == validate_address_u
 
 More Documentation Here:
 https://www.usps.com/business/web-tools-apis/address-information-api.htm#_Toc410982986
+
+
+## To Do
+
+- rename function
+- new function for zip code validator?
+- error handling
+- rewrite README
+- pull request for original repo?
+- way to store username
