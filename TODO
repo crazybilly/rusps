@@ -1,0 +1,13 @@
+TODO
+==================
+
+  - think through workflow
+  - way to concat addresses using either
+    - tidyselect
+    - named list (probably this)
+  - way to separate mashed together address
+  - function to compare addresses (like a join)
+  - rename the package
+    - how hard is this (try a git branch)
+    - move the github repo?
+  - rewrite README.rmd
