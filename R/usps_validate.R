@@ -1,7 +1,7 @@
 
 #' Validate a mailing address
 #'
-#' @description validate a mailing address against the USPS database. Not yet vectorized. Needs to support returning a single character string (or some such)
+#' @description validate a mailing address against the USPS database.
 #'
 #' @param username your USPS username. Sign up at https://registration.shippingapis.com/
 #' @param aptnum optional apartment number, ie "Apt 38"

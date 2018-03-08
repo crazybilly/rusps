@@ -7,6 +7,9 @@ TODO
     - named list (probably this)
   - way to separate mashed together address
   - function to compare addresses (like a join)
+  - usps validate
+    - way to handle parsing errors from usps
+    - simplify needs to put dash in zip+4
   - rename the package
     - how hard is this (try a git branch)
     - move the github repo?

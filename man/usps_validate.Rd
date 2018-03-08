@@ -28,5 +28,5 @@ usps_validate(username, aptnum = NULL, street, city, st, zip = NULL,
 a data frame with friendly column names, including addr1 (street address), city, st, zip and zip4
 }
 \description{
-validate a mailing address against the USPS database. Not yet vectorized. Needs to support returning a single character string (or some such)
+validate a mailing address against the USPS database.
 }

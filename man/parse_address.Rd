@@ -4,7 +4,8 @@
 \alias{parse_address}
 \title{Parse Address with libpostal}
 \usage{
-parse_address(serveraddress, address, collapsestreet = T, simplify = T)
+parse_address(serveraddress = "192.168.99.100:8080/parser", address,
+  collapsestreet = T, simplify = T)
 }
 \arguments{
 \item{serveraddress}{the address of a libpostal_rest server parser, by default 192.168.99.100:8080/parser}
