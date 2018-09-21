@@ -21,9 +21,9 @@ query_usps  <- function(queryurl) {
 
   queryresults %>%
     setNames(tolower(names(queryresults))) %>%
-    dplyr::rename_at( dplyr::vars(contains("address2")),  dplyr::funs(sub("address2", "addr1", .x)) ) %>%
-    dplyr::rename_at( dplyr::vars(contains("address1")),  dplyr::funs(sub("address2", "addr2", .x)) ) %>%
-    dplyr::rename_at( dplyr::vars(contains("zip5"    )),  dplyr::funs(sub("zip5"    , "zip"  , .x)) )
+    dplyr::rename_at( dplyr::vars(contains("address2")),  dplyr::funs(sub("address2", "addr1", .)) ) %>%
+    dplyr::rename_at( dplyr::vars(contains("address1")),  dplyr::funs(sub("address2", "addr2", .)) ) %>%
+    dplyr::rename_at( dplyr::vars(contains("zip5"    )),  dplyr::funs(sub("zip5"    , "zip"  , .)) )
 
 
 
